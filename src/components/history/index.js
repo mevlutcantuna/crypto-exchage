@@ -12,7 +12,7 @@ import { TypeList } from "../../utils/constants";
 
 const History = ({ tableData, currentPage, PER_PAGE, setTotalPageCount }) => {
   const [fromDate, setFromDate] = useState(new Date());
-  const [toDate, setToDate] = useState(new Date().setDate(-20));
+  const [toDate, setToDate] = useState(new Date());
   const [type, setType] = useState(TypeList[0].name);
   const [filteredData, setFilteredData] = useState([...tableData]);
   const [currentData, setCurrentData] = useState();
@@ -53,6 +53,8 @@ const History = ({ tableData, currentPage, PER_PAGE, setTotalPageCount }) => {
     return newData;
   };
 
+  console.log(moment(new Date().setDate(-20)).format("DD/MM/YYYY"))
+
   // get filtered data by data
   const filterByDate = (data) => {
     console.log(toDate, fromDate);
@@ -73,6 +75,9 @@ const History = ({ tableData, currentPage, PER_PAGE, setTotalPageCount }) => {
     const filteredByDate = filterByDate(filteredByType);
     setFilteredData(filteredByDate);
   };
+
+  // when page initiliaze
+  useEffect(() => {}, []);
 
   useEffect(() => {
     // when table data changes, update filtered data
