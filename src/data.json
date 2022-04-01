@@ -1,0 +1,74 @@
+[
+  {
+    "Date & Time": "Tue Mar 22 2022 18:45:08 GMT+0300 (GMT+03:00)",
+    "Currency From": "Bitcoin",
+    "Amount 1": 1,
+    "Currency To": "USD",
+    "Amount 2": 48000,
+    "Type": "Live Price"
+  },
+  {
+    "Date & Time": "Wed Mar 22 2022 10:33:08 GMT+0300 (GMT+03:00)",
+    "Currency From": "Ethereum",
+    "Amount 1": 2,
+    "Currency To": "EUR",
+    "Amount 2": 5723.36,
+    "Type": "Exchanged"
+  },
+  {
+    "Date & Time": "Tue Mar 21 2022 18:45:08 GMT+0300 (GMT+03:00)",
+    "Currency From": "Bitcoin",
+    "Amount 1": 1,
+    "Currency To": "USD",
+    "Amount 2": 48000,
+    "Type": "Live Price"
+  },
+  {
+    "Date & Time": "Wed Mar 21 2022 10:33:08 GMT+0300 (GMT+03:00)",
+    "Currency From": "Bitcoin",
+    "Amount 1": 2,
+    "Currency To": "EUR",
+    "Amount 2": 2.56565656,
+    "Type": "Exchanged"
+  },
+  {
+    "Date & Time": "Tue Mar 20 2022 18:45:08 GMT+0300 (GMT+03:00)",
+    "Currency From": "Bitcoin",
+    "Amount 1": 1,
+    "Currency To": "USD",
+    "Amount 2": 45040,
+    "Type": "Live Price"
+  },
+  {
+    "Date & Time": "Wed Mar 20 2022 10:33:08 GMT+0300 (GMT+03:00)",
+    "Currency From": "Bitcoin",
+    "Amount 1": 2,
+    "Currency To": "EUR",
+    "Amount 2": 2.56565656,
+    "Type": "Exchanged"
+  },
+  {
+    "Date & Time": "Wed Mar 19 2022 10:33:08 GMT+0300 (GMT+03:00)",
+    "Currency From": "Bitcoin",
+    "Amount 1": 2,
+    "Currency To": "EUR",
+    "Amount 2": 89088,
+    "Type": "Exchanged"
+  },
+  {
+    "Date & Time": "Tue Mar 19 2022 18:45:08 GMT+0300 (GMT+03:00)",
+    "Currency From": "Bitcoin",
+    "Amount 1": 1,
+    "Currency To": "EUR",
+    "Amount 2": 40555,
+    "Type": "Live Price"
+  },
+  {
+    "Date & Time": "Wed Mar 21 2022 10:33:08 GMT+0300 (GMT+03:00)",
+    "Currency From": "Bitcoin",
+    "Amount 1": 10,
+    "Currency To": "USD",
+    "Amount 2": 445470,
+    "Type": "Exchanged"
+  }
+]
