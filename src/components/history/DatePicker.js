@@ -11,6 +11,7 @@ const CustomDatePicker = ({onDatePickerChange,datePickerValue}) => {
         maxDate={new Date()}
         dateFormat="dd/MM/yyyy"
         showDisabledMonthNavigation
+        placeholderText="Select Date"
       />
     </CustomDatePickerWrapper>  
   );
