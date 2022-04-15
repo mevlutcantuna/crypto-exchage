@@ -53,20 +53,16 @@ const History = ({ tableData, currentPage, PER_PAGE, setTotalPageCount }) => {
     return newData;
   };
 
-  console.log(moment(new Date().setDate(-20)).format("DD/MM/YYYY"));
-
   // get filtered data by data
   const filterByDate = (data) => {
-    if(fromDate !== null && toDate !== null){
+    if (fromDate !== null && toDate !== null) {
       const newData = data.filter(
         (item) =>
-          moment(item["Date & Time"]).format("DD/MM/YYYY") >=
-            moment(fromDate).format("DD/MM/YYYY") &&
-          moment(item["Date & Time"]).format("DD/MM/YYYY") <=
-            moment(toDate).format("DD/MM/YYYY")
+          moment(item["Date & Time"]) >= moment(fromDate) &&
+          moment(item["Date & Time"]) <= moment(toDate)
       );
       return newData;
-    }else return data 
+    } else return data;
   };
 
   // set filtered data
