@@ -6,7 +6,6 @@ import CurrencyCard from "./CurrencyCard";
 import CurrencyModal from "./CurrencyModal";
 import FilterBar from "./FilterBar";
 
-import moment from "moment";
 import { changePaginationPage } from "../../utils/changePaginationPage";
 import { TypeList } from "../../utils/constants";
 
@@ -33,11 +32,11 @@ const History = ({ tableData, currentPage, PER_PAGE, setTotalPageCount }) => {
   };
 
   const handleChangeFromDate = (date) => {
-    setFromDate(date);
+    setFromDate(new Date(date).setHours(0, 0, 0, 0));
   };
 
   const handleChangeToDate = (date) => {
-    setToDate(date);
+    setToDate(new Date(date).setHours(23, 59, 59, 999));
   };
 
   const handleChangeType = (e) => {
@@ -56,10 +55,10 @@ const History = ({ tableData, currentPage, PER_PAGE, setTotalPageCount }) => {
   // get filtered data by data
   const filterByDate = (data) => {
     if (fromDate !== null && toDate !== null) {
-      const newData = data.filter(
+      let newData = data.filter(
         (item) =>
-          moment(item["Date & Time"]) >= moment(fromDate) &&
-          moment(item["Date & Time"]) <= moment(toDate)
+          Date.parse(item["Date & Time"]) >= fromDate &&
+          Date.parse(item["Date & Time"]) <= toDate
       );
       return newData;
     } else return data;
@@ -72,9 +71,6 @@ const History = ({ tableData, currentPage, PER_PAGE, setTotalPageCount }) => {
     const filteredByDate = filterByDate(filteredByType);
     setFilteredData(filteredByDate);
   };
-
-  // when page initiliaze
-  useEffect(() => {}, []);
 
   useEffect(() => {
     // when table data changes, update filtered data
