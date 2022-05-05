@@ -28,7 +28,7 @@ In this project, people who can exchange their money and it saves on the table w
 To setup the project, run the following on your terminal in the order:
 
 ```
-    git clone https://github.com/redacreltdcom/exchage-coins
+    git clone https://github.com/mevlutcantuna/crypto-exchage
 ```
  
 ```
