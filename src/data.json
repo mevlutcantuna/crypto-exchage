@@ -1,6 +1,6 @@
 [
   {
-    "Date & Time": "Tue Mar 22 2022 18:45:08 GMT+0300 (GMT+03:00)",
+    "Date & Time": "Wed Feb 08 2022 18:45:08 GMT+0300 (GMT+03:00)",
     "Currency From": "Bitcoin",
     "Amount 1": 1,
     "Currency To": "USD",
@@ -8,7 +8,7 @@
     "Type": "Live Price"
   },
   {
-    "Date & Time": "Wed Mar 22 2022 10:33:08 GMT+0300 (GMT+03:00)",
+    "Date & Time": "Wed Feb 08 2022 10:33:08 GMT+0300 (GMT+03:00)",
     "Currency From": "Ethereum",
     "Amount 1": 2,
     "Currency To": "EUR",
@@ -16,7 +16,7 @@
     "Type": "Exchanged"
   },
   {
-    "Date & Time": "Tue Mar 21 2022 18:45:08 GMT+0300 (GMT+03:00)",
+    "Date & Time": "Tue Mar 07 2022 18:45:08 GMT+0300 (GMT+03:00)",
     "Currency From": "Bitcoin",
     "Amount 1": 1,
     "Currency To": "USD",
@@ -24,7 +24,7 @@
     "Type": "Live Price"
   },
   {
-    "Date & Time": "Wed Mar 21 2022 10:33:08 GMT+0300 (GMT+03:00)",
+    "Date & Time": "Tue Mar 07 2022 10:33:08 GMT+0300 (GMT+03:00)",
     "Currency From": "Bitcoin",
     "Amount 1": 2,
     "Currency To": "EUR",
